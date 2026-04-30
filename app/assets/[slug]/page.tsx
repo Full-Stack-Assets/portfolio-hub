@@ -1,4 +1,11 @@
-import portfolio from "@/data/portfolio.json";
+import { PageProps } from "next"
+
+export default function AssetPage({ params }: PageProps<{ slug: string }>) {
+  const asset = getAssetBySlug(params.slug)
+  if (!asset) return <div>Not found.</div>
+  return <div>{asset.name}</div>
+}
+
 import Link from "next/link";
 
 interface AssetPageProps {
