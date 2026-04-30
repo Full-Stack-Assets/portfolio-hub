@@ -1,11 +1,12 @@
-import "./globals.css";
+import "./global.css";
 import Link from "next/link";
+import { Analytics } from '@vercel/analytics/next';
 
 export const metadata = {
   title: "SaaS Portfolio Studio"
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <body className="bg-slate-950 text-slate-50">
@@ -21,6 +22,7 @@ export default function RootLayout({ children }) {
           </div>
         </header>
         <main className="max-w-5xl mx-auto px-4 py-8">{children}</main>
+        <Analytics />
       </body>
     </html>
   );
