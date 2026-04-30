@@ -1,6 +1,6 @@
 import Link from "next/link"
 import { PageProps } from "next"
-import { getAssetBySlug } from "@/lib/assets" // adjust path if needed
+import { getAssetBySlug } from "@/lib/assets"
 
 export default function AssetPage({ params }: PageProps<{ slug: string }>) {
   const asset = getAssetBySlug(params.slug)
