@@ -1,0 +1,239 @@
+{
+  "assets": [
+    {
+      "id": "W1",
+      "slug": "workflow-automation-engine",
+      "name": "Workflow Automation Engine",
+      "description": "Automates multi-step processes, task routing, and operational workflows.",
+      "niche": "Workflow & Operations Automation",
+      "bundles": ["ops_content_suite"]
+    },
+    {
+      "id": "W2",
+      "slug": "runbook-sop-manager",
+      "name": "Runbook & SOP Manager",
+      "description": "Centralized system for creating, executing, and tracking operational runbooks.",
+      "niche": "Workflow & Operations Automation",
+      "bundles": ["ops_content_suite"]
+    },
+    {
+      "id": "W3",
+      "slug": "launch-execution-planner",
+      "name": "Launch & Execution Planner",
+      "description": "Structured planning tool for product launches, campaigns, and cross-team coordination.",
+      "niche": "Workflow & Operations Automation",
+      "bundles": ["ops_content_suite"]
+    },
+    {
+      "id": "W4",
+      "slug": "multi-product-founder-console",
+      "name": "Multi-Product Founder Console",
+      "description": "Unified dashboard for managing multiple SaaS assets, metrics, and workflows.",
+      "niche": "Workflow & Operations Automation",
+      "bundles": ["ops_content_suite"]
+    },
+    {
+      "id": "A1",
+      "slug": "product-analytics-dashboard",
+      "name": "Product Analytics Dashboard",
+      "description": "Tracks usage, engagement, and feature-level behavior.",
+      "niche": "Analytics & Intelligence",
+      "bundles": ["analytics_suite"]
+    },
+    {
+      "id": "A2",
+      "slug": "churn-prediction-modeler",
+      "name": "Churn Prediction Modeler",
+      "description": "Predicts user churn using behavioral and historical signals.",
+      "niche": "Analytics & Intelligence",
+      "bundles": ["analytics_suite"]
+    },
+    {
+      "id": "A3",
+      "slug": "session-replay-ux-insight-tool",
+      "name": "Session Replay & UX Insight Tool",
+      "description": "Captures anonymized user sessions for UX optimization.",
+      "niche": "Analytics & Intelligence",
+      "bundles": ["analytics_suite"]
+    },
+    {
+      "id": "A4",
+      "slug": "support-intelligence-analyzer",
+      "name": "Support Intelligence Analyzer",
+      "description": "Analyzes support tickets for themes, sentiment, and operational insights.",
+      "niche": "Analytics & Intelligence",
+      "bundles": ["analytics_suite"]
+    },
+    {
+      "id": "A5",
+      "slug": "portfolio-kpi-command-center",
+      "name": "Portfolio KPI Command Center",
+      "description": "Aggregates metrics across multiple SaaS assets into a unified dashboard.",
+      "niche": "Analytics & Intelligence",
+      "bundles": ["analytics_suite"]
+    },
+    {
+      "id": "A6",
+      "slug": "metric-governance-system",
+      "name": "Metric Governance System",
+      "description": "Defines, standardizes, and governs key business metrics.",
+      "niche": "Analytics & Intelligence",
+      "bundles": ["analytics_suite"]
+    },
+    {
+      "id": "A7",
+      "slug": "competitive-signal-monitor",
+      "name": "Competitive Signal Monitor",
+      "description": "Tracks competitor movements, updates, and market shifts.",
+      "niche": "Competitive & Market Intelligence",
+      "bundles": ["analytics_suite", "ops_content_suite"]
+    },
+    {
+      "id": "M1",
+      "slug": "pricing-experimentation-lab",
+      "name": "Pricing Experimentation Lab",
+      "description": "Runs pricing tests, compares models, and evaluates revenue impact.",
+      "niche": "Monetization & Pricing Systems",
+      "bundles": ["monetization_suite"]
+    },
+    {
+      "id": "M2",
+      "slug": "revenue-modeling-engine",
+      "name": "Revenue Modeling Engine",
+      "description": "Builds financial projections and monetization scenarios.",
+      "niche": "Monetization & Pricing Systems",
+      "bundles": ["monetization_suite"]
+    },
+    {
+      "id": "M3",
+      "slug": "billing-flow-designer",
+      "name": "Billing Flow Designer",
+      "description": "Designs and simulates subscription and billing flows.",
+      "niche": "Monetization & Pricing Systems",
+      "bundles": ["monetization_suite"]
+    },
+    {
+      "id": "S1",
+      "slug": "founder-crm-deal-tracker",
+      "name": "Founder CRM & Deal Tracker",
+      "description": "Lightweight CRM for managing pipelines, deals, and follow-ups.",
+      "niche": "Sales & GTM Enablement",
+      "bundles": ["gtm_suite"]
+    },
+    {
+      "id": "S2",
+      "slug": "deal-microsite-builder",
+      "name": "Deal Microsite Builder",
+      "description": "Generates personalized deal pages for prospects.",
+      "niche": "Sales & GTM Enablement",
+      "bundles": ["gtm_suite"]
+    },
+    {
+      "id": "S3",
+      "slug": "gtm-playbook-generator",
+      "name": "GTM Playbook Generator",
+      "description": "Creates structured go-to-market playbooks and sales workflows.",
+      "niche": "Sales & GTM Enablement",
+      "bundles": ["gtm_suite"]
+    },
+    {
+      "id": "S4",
+      "slug": "demo-script-automation-tool",
+      "name": "Demo Script Automation Tool",
+      "description": "Generates tailored demo scripts for sales calls.",
+      "niche": "Sales & GTM Enablement",
+      "bundles": ["gtm_suite"]
+    },
+    {
+      "id": "C1",
+      "slug": "document-artifact-generator",
+      "name": "Document & Artifact Generator",
+      "description": "Creates briefs, memos, and structured documents using AI.",
+      "niche": "Content & Artifact Automation",
+      "bundles": ["ops_content_suite"]
+    },
+    {
+      "id": "C2",
+      "slug": "executive-summary-generator",
+      "name": "Executive Summary Generator",
+      "description": "Produces concise executive briefs from long-form content.",
+      "niche": "Content & Artifact Automation",
+      "bundles": ["ops_content_suite"]
+    },
+    {
+      "id": "C3",
+      "slug": "product-specification-generator",
+      "name": "Product Specification Generator",
+      "description": "Generates structured product specs and requirement documents.",
+      "niche": "Content & Artifact Automation",
+      "bundles": ["ops_content_suite"]
+    },
+    {
+      "id": "C4",
+      "slug": "investor-update-composer",
+      "name": "Investor Update Composer",
+      "description": "Automates investor updates and stakeholder communications.",
+      "niche": "Content & Artifact Automation",
+      "bundles": ["ops_content_suite"]
+    },
+    {
+      "id": "K1",
+      "slug": "landing-page-generator",
+      "name": "Landing Page Generator",
+      "description": "Creates conversion-optimized landing pages using templates and AI.",
+      "niche": "Marketing & Conversion Tools",
+      "bundles": ["gtm_suite"]
+    },
+    {
+      "id": "K2",
+      "slug": "asset-management-hub",
+      "name": "Asset Management Hub",
+      "description": "Stores, organizes, and retrieves marketing assets.",
+      "niche": "Marketing & Conversion Tools",
+      "bundles": ["ops_content_suite"]
+    },
+    {
+      "id": "I1",
+      "slug": "competitor-intelligence-monitor",
+      "name": "Competitor Intelligence Monitor",
+      "description": "Tracks competitor updates, product changes, and market signals.",
+      "niche": "Competitive & Market Intelligence",
+      "bundles": ["ops_content_suite"]
+    },
+    {
+      "id": "P1",
+      "slug": "portfolio-storefront-system",
+      "name": "Portfolio Storefront System",
+      "description": "A marketplace-style interface for showcasing and selling SaaS assets.",
+      "niche": "Portfolio & Marketplace Infrastructure",
+      "bundles": ["ops_content_suite"]
+    }
+  ],
+
+  "bundles": [
+    {
+      "id": "monetization_suite",
+      "name": "Monetization Suite",
+      "description": "Pricing, revenue modeling, and billing automation.",
+      "assetIds": ["M1", "M2", "M3"]
+    },
+    {
+      "id": "analytics_suite",
+      "name": "Analytics Suite",
+      "description": "Product analytics, churn prediction, KPI governance, and competitive signals.",
+      "assetIds": ["A1", "A2", "A3", "A4", "A5", "A6", "A7"]
+    },
+    {
+      "id": "gtm_suite",
+      "name": "GTM Suite",
+      "description": "Landing pages, CRM, deal microsites, GTM playbooks, and demo automation.",
+      "assetIds": ["S1", "S2", "S3", "S4", "K1"]
+    },
+    {
+      "id": "ops_content_suite",
+      "name": "Ops & Content Suite",
+      "description": "Workflow automation, documentation, content generation, asset management, and portfolio infrastructure.",
+      "assetIds": ["W1", "W2", "W3", "W4", "C1", "C2", "C3", "C4", "K2", "I1", "P1"]
+    }
+  ]
+}
