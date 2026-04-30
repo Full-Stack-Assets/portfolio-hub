@@ -1,7 +1,7 @@
 import portfolio from "@/data/portfolio.json";
 import Link from "next/link";
 
-export default function UniversalPage({ params }) {
+export default function UniversalPage({ params }: { params: { type: string; slug: string } }) {
   const { type, slug } = params;
 
   const isAsset = type === "assets";
