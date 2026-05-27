@@ -1,12 +1,12 @@
 import Link from "next/link"
-import { PageProps } from "next"
+import { notFound } from "next/navigation"
 import { getAssetBySlug } from "@/lib/assets"
 
-export default function AssetPage({ params }: PageProps<{ slug: string }>) {
+export default function AssetPage({ params }: { params: { slug: string } }) {
   const asset = getAssetBySlug(params.slug)
 
   if (!asset) {
-    return <div>Not found.</div>
+    notFound()
   }
 
   return (
