@@ -1,18 +1,7 @@
 import { Asset } from "./types"
+import data from "@/data/portfolio.json"
 
-const assets: Asset[] = [
-  {
-    slug: "clinicflow",
-    name: "ClinicFlow",
-    description: "Scheduling and intake for small clinics."
-  },
-  {
-    slug: "invoicepro",
-    name: "InvoicePro",
-    description: "Invoicing and payment links for SMBs."
-  },
-  // ...add all 25 assets here
-]
+const assets: Asset[] = data.assets
 
 export function getAllAssets(): Asset[] {
   return assets

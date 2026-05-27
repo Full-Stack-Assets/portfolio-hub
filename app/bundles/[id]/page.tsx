@@ -1,10 +1,11 @@
 import { getBundleById, getAssetsForBundle } from "@/lib/portfolio";
+import { notFound } from "next/navigation";
 import Link from "next/link";
 
-export default function BundlePage({ params }) {
+export default function BundlePage({ params }: { params: { id: string } }) {
   const bundle = getBundleById(params.id);
 
-  if (!bundle) return <div>Not found.</div>;
+  if (!bundle) notFound();
 
   const assets = getAssetsForBundle(bundle);
 
